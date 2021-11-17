@@ -1,0 +1,7 @@
+
+card_upgrader.admin:
+  title: "Card Upgrader's settings"
+  description: 'Change settings for Card Upgrader, like color used on news cards.'
+  parent: system.admin_config_development
+  route_name: card_upgrader.settings
+  weight: 100

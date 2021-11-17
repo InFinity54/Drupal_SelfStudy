@@ -1,0 +1,2 @@
+Identifiant : administrateur
+Mot de passe : autoForm@Drupal8_

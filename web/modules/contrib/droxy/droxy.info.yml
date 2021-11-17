@@ -1,0 +1,11 @@
+name: 'Drupal Proxy'
+type: module
+description: 'Drupal Proxy Module'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Proxy'
+
+# Information added by Drupal.org packaging script on 2020-06-07
+version: '2.0.1'
+project: 'droxy'
+datestamp: 1591528320

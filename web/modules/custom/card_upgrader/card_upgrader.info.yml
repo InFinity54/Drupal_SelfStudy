@@ -1,0 +1,8 @@
+name: Card Upgrader
+description: Add a 'See More' button to Cards.
+package: Custom
+version: 1.0.0
+
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9

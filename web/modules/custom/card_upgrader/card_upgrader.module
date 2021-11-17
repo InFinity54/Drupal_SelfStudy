@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function card_upgrader_theme($existing, $type, $theme, $path) {
+    return [
+        'node__actualite__card' => [
+          'path' => $path . '/templates',
+          'template' => 'node--actualite--card',
+          'base hook' => 'node'
+        ]
+      ];
+}
+
+function card_upgrader_preprocess_node(array &$variables) {
+    $config = \Drupal::config('card_upgrader.cardupgradersettings');
+    $variables['card_upgrader_cardcolor'] = $config->get('card_color');
+}

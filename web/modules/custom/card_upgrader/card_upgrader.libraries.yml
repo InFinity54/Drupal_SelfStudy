@@ -1,0 +1,9 @@
+
+card_upgrader_card_color:
+  version: 1.0.0
+  header: false
+  css:
+    theme:
+      css/card_color.css: {}
+  js:
+    js/card_color.js: {}

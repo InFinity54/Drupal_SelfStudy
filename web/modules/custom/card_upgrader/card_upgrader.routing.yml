@@ -1,0 +1,8 @@
+
+card_upgrader.settings:
+  path: '/admin/config/card_upgrader'
+  defaults:
+    _form: 'Drupal\card_upgrader\Form\SettingsForm'
+    _title: "Card Upgrader's settings"
+  requirements:
+    _permission: 'access administration pages'
