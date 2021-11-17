@@ -1,0 +1,10 @@
+proxy_exceptions: ''
+_core:
+  default_config_hash: hCy9KYfum6LU6g-GQhDyCvwMGWsHYE1hJanwzpqmSqE
+proxy_scheme: null
+proxy_server: ''
+proxy_port: ''
+proxy_username: ''
+proxy_password: ''
+proxy_user_agent: ''
+langcode: fr

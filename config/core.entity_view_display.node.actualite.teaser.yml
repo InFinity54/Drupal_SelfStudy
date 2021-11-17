@@ -1,0 +1,37 @@
+uuid: ff736f83-60db-4776-8c71-2c311f791ab5
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.actualite.body
+    - field.field.node.actualite.field_paysd
+    - field.field.node.actualite.field_pict
+    - field.field.node.actualite.field_tags
+    - node.type.actualite
+  module:
+    - text
+    - user
+id: node.actualite.teaser
+targetEntityType: node
+bundle: actualite
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_paysd: true
+  field_pict: true
+  field_tags: true
+  langcode: true

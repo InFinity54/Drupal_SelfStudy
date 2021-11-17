@@ -1,0 +1,10 @@
+uuid: 2634b08e-0bf3-4f92-a4b9-b46cb872751c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.card
+label: Card
+targetEntityType: node
+cache: true

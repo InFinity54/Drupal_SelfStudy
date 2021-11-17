@@ -1,0 +1,28 @@
+uuid: c3fae693-2cd9-4cf4-8d31-1dd0c4dd32bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.actualites
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: exposedformactualitesactualites_content
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:actualites-actualites_content'
+settings:
+  id: 'views_exposed_filter_block:actualites-actualites_content'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: 'Filtrer la liste'
+visibility:
+  request_path:
+    id: request_path
+    pages: /actualites
+    negate: false
